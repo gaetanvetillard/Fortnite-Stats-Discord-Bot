@@ -3,8 +3,8 @@ import discord
 from discord import state
 import requests
 
-TRN_API_KEY = "a32626f3-c4ef-4e8a-807d-68e75bb27002"
-DISCORD_BOT_TOKEN = "ODE0MDk5ODg2MzQ5MzUyOTcw.YDY7mg.AQZ6yZnLpKqUEgMkkk7RY_QP9YI"
+TRN_API_KEY = "YOUR TRN API KEY"
+DISCORD_BOT_TOKEN = "YOUR DISCORD TOKEN"
 HEADERS_TRN = {"TRN-Api-Key": TRN_API_KEY}
 
 def find_stats(platform, username):
